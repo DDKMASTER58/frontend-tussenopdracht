@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    border: black 3px solid;
+}
+
+nav img {
+    max-width: 200px;
+    padding-left: 100px;
+}
+
+nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(44, 60, 90);
+}
+
+nav {
+    background-color: rgb(162, 196, 203);
+}
+
+header img {
+    max-width: 500px;
+}
+
+.productInterface
