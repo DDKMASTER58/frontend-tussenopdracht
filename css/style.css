@@ -24,8 +24,50 @@ nav {
     background-color: rgb(162, 196, 203);
 }
 
+header {
+    padding: 10%;
+    padding-top: 2%;
+}
+
 header img {
     max-width: 500px;
 }
 
-.productInterface
+.productInterface {
+    display: flex;
+    gap: 5%
+}
+
+.productInterface img {
+    flex: 2;
+    border: black 3px solid;
+    padding: 30px;
+}
+
+.productInterface div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productInterface div a {
+    border-radius: 5px;
+    background-color: rgb(44, 60, 90);
+    color: whitesmoke;
+    padding: 15px;
+    align-items: center;
+    padding-left: 45%;
+    padding-right: 45%;
+
+}
+
+.productInterface div p {
+    padding-bottom: 5%;
+}
+
+.productInterface div h2 {
+    padding-right: 80%;
+    font-size: xx-large;
+    font-weight: 5000;
+}
