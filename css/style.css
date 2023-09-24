@@ -184,7 +184,7 @@ footer {
 }
 
 footer a {
-    color: rgb(176, 176, 176);
+    color: rgb(132, 132, 132);
     text-decoration: none;
     padding: 20px;
     padding-top: 50px;
@@ -193,6 +193,5 @@ footer a {
 }
 
 footer a:hover {
-    background-color: rgb(162, 196, 203);
-    color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
 }
